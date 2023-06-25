@@ -1,0 +1,27 @@
+.Secfondo{
+    height: 100%;
+    width: 100%;
+}
+.HuellaCarbn{
+    margin-top: -40%;
+    margin-left: 20%;
+    color: rgb(153, 131, 101);
+}
+.text1Tit{
+    font-size: 80px;
+}
+
+.Segundo{
+    background-color: rgb(153, 131, 101);
+}
+.action2{
+    background-color: rgb(153, 131, 101);
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+}
+.redes{
+    margin-top: 30%;
+    margin-left: 15%;   
+
+}

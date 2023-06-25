@@ -1,0 +1,67 @@
+.BodyCardEfect{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.containerCards{
+    display: flex;
+}
+.cardssEfect  {
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+.CardimgEfect{
+    height: 500px;
+    width: 350px;
+    border-radius: 2px;
+    transition: 1s;
+    background-size: no-repeat;
+    background-size: cover;
+}
+.introCardEfect{
+    height: 200px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 140px;
+    background: rgb(27, 27, 27);
+    color: white;
+    transition: 1.5s;
+    opacity: 0.77;
+}
+.h1CardEfect{
+    margin: 10px;
+    font-size: 40px;
+}
+.pCardEfect{
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+.spanCardEfect{
+    font-weight: bold;
+}
+.cardssEfect:hover{
+    cursor:pointer;
+}
+.cardssEfect:hover .introCardEfect{
+    height: 300px;
+    bottom: 150px;
+    background: black;
+}
+.cardssEfect:hover .pCardEfect{
+    opacity: 1;
+    visibility: visible;
+}
+.cardssEfect:hover .CardimgEfect{
+    transform: scale(1.1) rotate(-3deg);
+}
+.line{
+    margin-left: 35%;
+    width: 500px;
+}
